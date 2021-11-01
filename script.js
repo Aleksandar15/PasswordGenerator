@@ -47,21 +47,7 @@ function generatePassword() {
         !symbolEl.checked) 
         return alert('Check at least one of the boxes!');
     else {
-        // if (upperEl.checked) {
-        //     password +=getUppercase();
-        // }
-        
-        // if (lowerEl.checked) {
-        //     password +=getLowercase();
-        // }
-        
-        // if (numberEl.checked) {
-        //     password +=getNumber();
-        // }
-    
-        // if (symbolEl.checked) {
-        //     password +=getSymbol();
-        // }
+      
         for(let i=0; i<len; i++) {
             const x = generateX();
             password += x;
@@ -87,8 +73,6 @@ function generateX() {
         xs.push(getSymbol())
     }
 
-    // if (!symbolEl.checked) return alert('symbols empty');
-// if empty
     return (
         xs[Math.floor(Math.random() * xs.length)]
     );
