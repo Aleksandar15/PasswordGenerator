@@ -4,7 +4,7 @@
 A password generator project built with JavaScript, frontend's HTML and CSS is manipulated with 'vanilla' DOM, I have then included this project in my bigger full-stack project <a href="https://github.com/Aleksandar15/password-manager-frontend">password manager</a> app. 😊
 
 #### Technologies
-###### JavaScript, CSS, HTML
+###### JavaScript, CSS3, HTML5
 
 ### Run my project
 - Clone this project.
